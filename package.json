@@ -1,0 +1,23 @@
+{
+  "homepage": "https://www.honestpatina.com/",
+  "name": "future",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js && node server/seeds.js",
+    "develop": "concurrently \"cd server && npm run start-prod\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}

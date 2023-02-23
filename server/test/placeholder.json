@@ -1,0 +1,20 @@
+
+{
+    "forsale": true,
+    "wanted": false,
+    "title": "Title 1",
+    "price": "1000",
+    "description": "Description 1",
+    "category": "Automotive",
+    "condition": "Good",
+    "contact": "1234567890",
+    "strikehandle": "",
+    "cashapphandle": "",
+    "media": [],
+    "date": "Date 1",
+    "location": "Location 1",
+    "latitude": "Latitude 1",
+    "longitude": "Longitude",
+    "watchlist": [],
+    "pfclist": []
+  }

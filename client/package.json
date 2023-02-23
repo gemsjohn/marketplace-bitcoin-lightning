@@ -1,0 +1,61 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@square/web-sdk": "^2.0.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.27.2",
+    "babel-plugin-macros": "^3.1.0",
+    "bootstrap": "^4.4.1",
+    "copy-to-clipboard": "^3.3.2",
+    "dotenv": "^16.0.1",
+    "fast-equals": "^4.0.1",
+    "graphql": "^16.5.0",
+    "imagekit": "^3.2.5",
+    "imagekitio-react": "^1.1.1",
+    "jwt-decode": "^2.2.0",
+    "leaflet": "^1.8.0",
+    "moment": "^2.29.4",
+    "qrcode": "^1.5.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.0.1",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "square": "^22.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI= react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

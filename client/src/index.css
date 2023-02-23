@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@600&display=swap');
+
+body {
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
